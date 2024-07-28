@@ -7,7 +7,7 @@ event_inherited();
 switch (sprite_index)
 {
 	// Code under this case runs if the assigned sprite is 'spr_player_walk', meaning the player is walking.
-	case spr_player_walk:
+	case run_cycle:
 		// Set the animation speed to 1, as it may have been set to 0 during the jump animation.
 		image_speed = 1;
 	

@@ -21,5 +21,5 @@ if (sprite_index == spr_player_fall)
 if (grounded)
 {
 	// Change the instance's sprite to the walking player sprite.
-	sprite_index = spr_player_walk;
+	sprite_index = run_cycle;
 }
