@@ -10,7 +10,7 @@ if (in_knockback)
 vel_x = -move_speed;
 
 // This checks if the current sprite is the fall sprite, meaning the player hasn't landed yet.
-if (sprite_index == spr_player_fall)
+if (sprite_index == falling)
 {
 	// In that case we exit/stop the event here, so the sprite doesn't change.
 	exit;

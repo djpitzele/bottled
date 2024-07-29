@@ -1,5 +1,6 @@
 // This runs the Create event of the parent, ensuring the player gets all variables from the character parent.
 event_inherited();
+LoadPads();
 
 // This variable stores the number of coins the player has collected.
 coins = 0;
