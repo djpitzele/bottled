@@ -15,7 +15,7 @@ switch (sprite_index)
 		if (vel_x == 0)
 		{
 			// In that case we change its sprite to the idle one.
-			sprite_index = spr_player_idle;
+			sprite_index = idle;
 		}
 	
 		// This checks if the Y velocity of the player is greater than 1, meaning it is falling down.
@@ -48,7 +48,7 @@ switch (sprite_index)
 		if (grounded)
 		{
 			// In that case we change its sprite to the idle sprite.
-			sprite_index = spr_player_idle;
+			sprite_index = idle;
 		
 			// We also reset the animation speed to 1, as it was set to 0 at the end of the fall animation.
 			image_speed = 1;
