@@ -25,4 +25,13 @@ switch (sprite_index)
 		// We also set the current frame to the last frame of the animation, which will remain visible
 		image_index = image_number - 1;
 		break;
+	
+	case crouch:
+		image_speed = 0;
+		image_index = image_number - 1;
+		break;
+	
+	case jab:
+		sprite_index = idle;
+		break;
 }
