@@ -1,5 +1,6 @@
 /// @description Reads controller inputs
 // You can write your code in this editor
+exit;
 var default_pad = global.pads[0];
 
 if (gamepad_axis_value(default_pad, gp_axislv) < 0) {

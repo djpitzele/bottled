@@ -34,4 +34,8 @@ switch (sprite_index)
 	case jab:
 		sprite_index = idle;
 		break;
+	
+	case up_smash:
+		sprite_index = idle;
+		break;
 }
