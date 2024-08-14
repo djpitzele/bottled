@@ -73,7 +73,13 @@ switch (sprite_index)
 			_dust.image_xscale = image_xscale;
 		}
 		break;
-
+	
+	case air_dodge:
+		if (grounded) {
+			sprite_index = idle;
+		}
+		break;
+	
 	// 'default' code runs when none of the other cases are valid, meaning the currently assigned sprite is not covered by any
 	// of the cases above.
 	default:
